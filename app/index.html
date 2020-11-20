@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <!-- <meta charset='big5'> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>WORDS</title>
+    <link rel='stylesheet' href='styles/app.css'>
+  </head>
+  
+<body>
+  <hr>
+  <div><canvas id="mycanvas"></canvas></div>
+  <hr>
+  <div id="show_word_r"  class="show_word_r"></div>
+   <hr>
+  <div id="show_word" class="show_word"></div><hr> 
+  
+  <button onclick="reset()" class="reset" >Get Words</button>
+  <button onclick="clearCanvas()" id="clear" class="clear" >Clear</button>
+  <input type="checkbox" id="myCheck" checked > Checked -> LONG / Unchecked -> TENG
+  
+  <audio id="audio_w" src="./audio/button9.wav"></audio>
+  
+ <!--  <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+  <script src='scripts/app.js'></script>
+</body>
+</html>
