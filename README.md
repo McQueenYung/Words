@@ -1,2 +1,2 @@
 # Words
-http://app.mq-web.net/app/Words/app
+http://app.mq-web.net/Words/app
